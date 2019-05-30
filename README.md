@@ -16,7 +16,7 @@ Tag it as `flexsounds.lexik.claim` and your claim will be added.
 
 Example
 
-```
+```php
 # App\Claims\RandomNumberClaim
 class RandomNumberClaim implements ClaimInterface
 {
