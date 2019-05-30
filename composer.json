@@ -1,0 +1,32 @@
+{
+    "name": "leroybaeyens/lexik-jwt-claims-extension",
+    "description": "Claim extension for Lexik/jwt-authentication",
+    "type": "library",
+    "require": {
+        "lexik/jwt-authentication-bundle": "^2.6",
+        "symfony/framework-bundle": "^3.4|^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leroy",
+            "email": "leroybaeyens@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Flexsounds\\Bundle\\FlexsoundsLexikJwtClaimsBundle\\": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "symfony/phpunit-bridge": "^4.3",
+        "friendsofphp/php-cs-fixer": "^2.15"
+    },
+    "scripts": {
+        "test": [
+            "php-cs-fixer --verbose fix",
+            "vendor/bin/simple-phpunit"
+        ]
+    }
+}
